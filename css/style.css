@@ -1,0 +1,248 @@
+body{
+    background-color: #f2f2f2;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+.w900{
+    width: 900px;
+    margin: 0 auto;
+}
+.margin_hb{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.big_title{
+    text-align: center;
+    font-size: 1.3rem;
+    width: 210px;
+    padding: 6px 0;
+    margin: 0 auto;
+    border-top: solid 1px #909090;
+    border-bottom: solid 1px #909090;
+    margin: 20px auto;
+}
+header{
+    background-color: #afd7cf;
+    width: 100%;
+    padding: 20px 0 ;
+    height: 260px;
+    position: relative;
+}
+header>div:nth-of-type(2){
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 7px 0;
+    position: absolute;
+    bottom: 14px;
+}
+header>div:nth-of-type(1)>div:nth-of-type(1){
+    margin-top: 20px;
+    display: flex;  
+    align-items: center; 
+}
+header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1){
+    width: 350px;
+}
+header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1) h1{
+    color: #540b13;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 8px 0;
+    display: inline-block;
+    border-bottom: solid 2px #540b13;
+    margin-left: 20px;
+}
+header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1) h2{
+    color: #540b13;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 6.3px;
+     margin-left: 20px;
+}
+header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2){
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;   
+}
+header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2) img{
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3){
+    width: 350px;
+}
+header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3) p{
+    margin-left: 50px;
+    line-height: 2;
+    color: #540b13;
+}
+main>div:nth-of-type(1)>div:nth-of-type(2){
+    width: 660px;
+    margin: 0 auto;
+    line-height: 2.5;
+}
+main>div:nth-of-type(2){
+    background-color: #afd7cf;
+}
+main>div:nth-of-type(2)>div{
+    padding: 60px 0;
+    margin-bottom: 0;
+}
+main>div:nth-of-type(2)>div>div{
+    border: 10px solid #f2f2f2;
+    padding: 20px;
+}
+main>div:nth-of-type(2)>div>div>div:nth-of-type(2){
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 2;
+}
+main>div:nth-of-type(3){
+    background-color: #dbeae5;
+}
+main>div:nth-of-type(3)>div{
+    padding: 60px 0;
+    margin-top: 0px; 
+}
+main>div:nth-of-type(3)>div>div{
+    background-color: #f9f9f9;
+    padding: 50px 10px;
+    width: 655px;
+    margin: 0 auto;
+    box-shadow: 0px 8px 7px rgba(0, 0, 0, 0.4);
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2){
+    padding: 8px 8px 0;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(1){
+    margin-top: 24px;
+    display: flex;
+    align-content: space-between;
+    border-bottom: 1px solid #808080;
+    position: relative;
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(1)>strong{
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-left: 8px;
+
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(1)>p{
+    font-size: 0.8rem;
+    display: inline-block;
+    color: #848484;
+    position: absolute;
+    right: 8px;
+    bottom: 0;
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(2)>p{
+    line-height: 1.5;
+    font-size: 0.8rem;
+    color: #505050;
+    padding: 8px 14px;
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(3)>p{
+    font-size: 1rem;
+    margin-top: 16px;
+    margin-left: 32px;
+    font-weight: 600;
+    color:  #4e4e4e;
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(3)>ul{
+    margin-left: 32px
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(3)>ul>li{
+    font-size: 0.7rem;
+    color: #848484;
+}
+main>div:nth-of-type(3)>div>div>div:nth-of-type(2)>section>div:nth-of-type(3)>ul>li:before{
+    content: "一";
+    margin-right: 4px;
+}
+main>div:nth-of-type(4){
+    margin: 80px auto;
+}
+main>div:nth-of-type(4)>div:nth-of-type(2)>ul>li{
+    text-align: center;
+    line-height: 3;
+    font-size: 0.9rem;
+}
+main>div:nth-of-type(4)>div:nth-of-type(2)>ul>li a{
+       color: #575757;
+}
+footer{
+    background-color: #afd7cf;
+    padding: 60px;
+}
+footer p{
+    text-align: center;
+}
+footer>div{
+    border: 10px solid #f2f2f2;
+    padding: 20px;
+}
+@media screen and (max-width:900px){
+    .w900{
+        width:95%;
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1){
+        width: 335px;
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2){
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;   
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2) img{
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3){
+        width: 335px;
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3) p{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .w900{
+        width: 90%;
+    }    
+    header>div:nth-of-type(1)>div:nth-of-type(1){
+       position: relative;
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(1){
+        position: absolute;
+        top: 0
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(2){
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3){
+        position: absolute;
+        top: 100px;
+    }
+    header>div:nth-of-type(1)>div:nth-of-type(1)>div:nth-of-type(3) p{
+        margin-left: 20px
+    }
+    main>div:nth-of-type(1)>div:nth-of-type(2){
+        width: 85%;
+    }
+    main>div:nth-of-type(3)>div>div{
+        width: 90%;
+    }
+
+    
+}
